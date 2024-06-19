@@ -1,0 +1,71 @@
+.container {
+  max-width: 720px;
+}
+
+.col-12 {
+  padding-top: 20px;
+}
+
+.row-cols-lg-auto {
+  padding-top: 30px;
+}
+
+.btn-primary {
+  padding: 16px 26px;
+  font-size: 25px;
+}
+
+.button__card {
+  background-image: url(./images/back.png);
+  width: 130px;
+  height: 130px;
+  border-radius: 8px;
+  font-size: 0px;
+  padding: 0px 0px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.button__hidden {
+  color: cornflowerblue;
+  background-color: cornflowerblue;
+}
+
+.button__show {
+  color: white;
+}
+
+.button__guessed {
+  color: white;
+  background-color: green;
+}
+
+
+.button__card__image__hidden {
+  transition: opacity 0.2s;
+  opacity: 0;
+  pointer-events: none
+}
+
+.button__card__image__show {
+  transition: opacity 0.3s;
+  opacity: 1;
+
+}
+
+.button__card__image__guessed {
+  transition: opacity 0.3s;
+  opacity: 1;
+
+
+}
+
+.winner {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.timer {
+  font-size: 35px;
+  padding-left: 30px;
+}
